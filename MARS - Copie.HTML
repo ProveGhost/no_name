@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de [KRATOS]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section, footer {
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        section img {
+            max-width: 100px;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+        }
+        footer {
+            background-color: #f1f1f1;
+            margin-top: 20px;
+        }
+        form input, form textarea, form button {
+            display: block;
+            width: 90%;
+            max-width: 400px;
+            margin: 10px auto;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- En-tête -->
+    <header>
+        <h1>Portfolio de [KRATOS] </h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section À propos -->
+    <section id="about">
+        <h2>À propos</h2>
+        <p>Je suis [KRATOS], un(e) passionné(e) du développement web. Mon objectif est de créer des solutions innovantes et utiles.</p>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="skills">
+        <h2>Compétences</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects">
+        <h2>Projets</h2>
+        <ul>
+            <li>
+                <a href="projet1.html">Projet 1</a>
+                <img src="Resume-du-projet-1.jpeg" width="200" height="auto" alt="Miniature du projet 1">
+            </li>
+            <li>
+                <a href="projet2.html">Projet 2</a>
+                <img src="Resume-du-projet-2.png" width="200" height="auto" alt="Miniature du projet 2">
+            </li>
+        </ul>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="#">
+            <input type="text" name="name" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>Contactez-moi : moustaphamasters@gmail.com | Suivez-moi : <a href="#">LinkedIn</a>, <a href="#">Twitter</a></p>
+    </footer>
+</body>
+</html>
